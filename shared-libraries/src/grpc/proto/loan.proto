@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package loan;
+
+service EmiService {
+  rpc CreateEmi (LoanRequest) returns (EmiResponse);
+}
+
+message LoanRequest {
+  string loanId = 1;
+  double amount = 2;
+}
+
+message EmiResponse {
+  string message = 1;
+}

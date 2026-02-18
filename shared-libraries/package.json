@@ -5,13 +5,16 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "copy-proto": "mkdir -p dist/grpc/proto && cp src/grpc/proto/*.proto dist/grpc/proto/",
+    "build": "tsc && npm run copy-proto",
     "prestart": "npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@grpc/grpc-js": "^1.14.3",
+    "@grpc/proto-loader": "^0.8.0",
     "amqplib": "^0.10.9",
     "ioredis": "^5.9.3",
     "redis": "latest"
