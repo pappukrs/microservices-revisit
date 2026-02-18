@@ -41,5 +41,10 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
+    "paths": {
+      "shared-libraries": [
+        "../shared-libraries/dist/index.d.ts"
+      ]
+    }
   }
 }

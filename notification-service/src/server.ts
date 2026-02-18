@@ -3,5 +3,5 @@ import app from "./app";
 const PORT = process.env.PORT || 3003;
 
 app.listen(PORT, () => {
-    console.log(`Loan Service port running on port ${PORT}`);
+    console.log(`Notification Service port running on port ${PORT}`);
 });
