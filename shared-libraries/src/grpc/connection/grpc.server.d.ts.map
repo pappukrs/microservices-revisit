@@ -1,0 +1,1 @@
+{"version":3,"file":"grpc.server.d.ts","sourceRoot":"","sources":["grpc.server.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,IAAI,MAAM,eAAe,CAAC;AAGtC,MAAM,WAAW,gBAAgB;IAC7B,MAAM,EAAE,IAAI,CAAC,MAAM,CAAC;IAEpB,KAAK,EAAE,GAAG,CAAC;CACd;AAED;;;;;;;;;;GAUG;AACH,wBAAgB,gBAAgB,CAAC,SAAS,EAAE,MAAM,EAAE,WAAW,EAAE,MAAM,GAAG,gBAAgB,CAezF"}
